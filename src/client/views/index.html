@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/resets.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/main-body.css">
+
+
+    <title>Document</title>
+</head>
+<body?>
+
+    <!-- Header -->
+    <header id="header">
+        <div id="logo">
+            <a href="#">
+                <img src="" alt="MyLogo">
+            </a>
+        </div>
+
+        <nav id="navigation">
+            <ol class="nav-list">
+                <li class="list-tem">Home</li>
+                <li class="list-tem">About</li>
+                <li class="list-tem">Services</li>
+            </ol>
+        </nav>
+    </header>
+
+    <!-- Main Body -->
+    <section id="main">
+        <div class="url-container">
+            <h2>
+                Evalute News or Blogs sentiment from NLP APi
+            </h2>
+            <label for="URL">Enter available Post link to get information about this Post</label>
+            <br>
+            <input type="text" name="url" id="URL" placeholder="Enter URL of the post that you want">
+            <br>
+            <button id="generate" onsubmit="">Submit</button>
+        </div>
+
+        <div class="results-container">
+            <h3>We got this Results about the Post:</h3>
+            <div id="text"></div>
+            <div id="agreement"></div>
+            <div id="subjectivity"></div>
+            <div id="confidence"></div>
+            <div id="irony"></div>
+            <div id="score_tag"></div>
+
+        </div>
+    </section>
+    <!-- <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+          // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+        })
+        }
+    </script> -->
+</body>
+</html>

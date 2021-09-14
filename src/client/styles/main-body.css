@@ -1,0 +1,50 @@
+.url-container{
+    text-align: center;
+    font-family: 'Poppins';
+    margin-top: 50px;
+}
+
+.url-container h2{
+    font-size: 30px;
+    font-weight: 900;
+    word-spacing: 3px;
+    margin: 60px 0px;
+    color: rgb(4, 86, 153);
+}
+
+.url-container input{
+    border: 0;
+    outline: 0;
+    background: none;
+    border-bottom: 2px solid rgb(4, 86, 153);
+    border-radius: 2px;
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.url-container button{
+    cursor: pointer;
+    color: rgb(4, 86, 153);
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.342);
+    transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+}
+.url-container button:hover{
+    color: rgb(0, 25, 248);
+    transform: scale(1.1);
+}
+
+.results-container{
+    margin: 30px;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border: 2px dashed rgb(4, 86, 153);
+}
